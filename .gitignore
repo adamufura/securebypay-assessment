@@ -1,0 +1,45 @@
+# Environment
+.env
+.env.local
+.env.*.local
+apps/api/.env
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# NestJS
+apps/api/dist/
+apps/api/coverage/
+
+# Flutter
+apps/web/.dart_tool/
+apps/web/.packages
+apps/web/.flutter-plugins
+apps/web/.flutter-plugins-dependencies
+apps/web/.pub-cache/
+apps/web/.pub/
+apps/web/build/
+apps/web/.metadata
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+Thumbs.db
+
+# Secrets / keys
+*.pem
+*.key
+id_rsa*
+
+# Internal agent brief (not for public submission)
+CURSOR_SECUREBYPAY_ASSESSMENT.md
